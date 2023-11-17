@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='jupyterhub-cognito-jwt-forward',
-    version='0.2',
+    version='0.4',
     url='https://github.com/fldsblzs/jwtauthenticator',
     author='fldsblzs',
     author_email='foldesibalazs@gmail.com',
@@ -11,7 +11,7 @@ setup(
     install_requires=[
         'jupyterhub',
         'python-jose',
-        'jwt',
+        'PyJWT',
         'requests'
     ]
 )
